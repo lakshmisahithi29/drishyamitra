@@ -79,6 +79,10 @@ def _seed_categories():
 app = create_app()
 
 if __name__ == "__main__":
+    import sys
+
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
     print("\n  🎯 Drishyamitra Backend")
     print("  ─────────────────────────────────")
     print("  Server:  http://localhost:5000")
